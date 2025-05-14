@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Meeting notes and materials for Project 1">
+  <title>Project 1 Meet Up</title>
+  //add video and audio
+</head>
+<body>
+  <header>
+    <div><h1>Project 1 Meet Up</h1></div>
+    <nav>
+      <ul>
+        <li><a href="#attendance">Attendance</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#feedback">Feedback Survey</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <section id="meeting-info">
+      <h2>Topic: <span>Brainstorming</span></h2>
+      <details>
+        <summary>Meeting Details</summary>
+        <p>Location: <strong>Conference Room A</strong></p>
+        <p>Duration: <em>2 hours</em></p>
+      </details>
+      <h3>Date: <time datetime="2025-05-13">May 13, 2025</time></h3>
+    </section>
+
+    <section id="attendance">
+      <h2>Attendance</h2>
+      <ul>
+        <li>Andy</li>
+        <li>Mirella</li>
+        <li></li>
+        <li></li>
+      </ul>
+    </section>
+
+    <section id="agenda">
+      <h2>Meeting Agenda</h2>
+      <ol>
+        <li>Agenda1</li>
+        <li>Agenda2</li>
+        <li>Agenda3</li>
+      </ol>
+      <h3>Unfinished Business</h3>
+      <ul>
+        <li>Previous work1</li>
+        <li>Previous work2</li>
+      </ul>
+      <h3>New Business</h3>
+      <ul>
+        <li><strong>New idea1</strong></li>
+        <li><em>New idea2</em></li>
+      </ul>
+    </section>
+
+    <section id="misc">
+      <h2>Comments & Questions</h2>
+      <p><b>Andy:</b> </p>
+      <p><i>Andy:</i> </p>
+    </section>
+
+    <section id="media">
+      <h2>Meeting Media</h2>
+      <h3>Diagrams</h3>
+      <img src="diagram.png" alt="Meeting diagram" width="500">
+
+      <h3>Audio Recording</h3>
+      <audio controls>
+        <source src="meeting-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <h3>Video Recording</h3>
+      <video width="400" controls>
+        <source src="meeting-video.mp4" type="video/mp4"> // may be put link
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section id="feedback">
+      <h2>Meeting Feedback Survey</h2>
+      <form id ="submit" onsubmit="alert('Feedback submitted!')">
+        <fieldset>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br>
+
+          <label for="date">Meeting Date:</label>
+          <input type="date" id="date" name="date"><br>
+
+          <label for="satisfaction">Overall Satisfaction:</label><br>
+          <input type="radio" name="satisfaction" value="good"> Good
+          <input type="radio" name="satisfaction" value="average"> Average
+          <input type="radio" name="satisfaction" value="poor"> Need to improve
+          <br>
+
+          <label for="topics">Topics you're interested in:</label><br>
+          <input list="topics">
+          <datalist id="topics">
+            <option value="Timers">
+            <option value="UI Design">
+            <option value="Productivity Tools">
+          </datalist>
+          <br>
+          <label>Place & Type for Next Meeting</label> <br>
+            <select id="Place to meet nextime" name="priority">
+            <option value="high"></option>
+            <option value="high">Meeting room</option>
+            <option value="medium">Cafe</option>
+            <option value="low">Restaurant</option><br>
+          
+
+          <label>Meeting Type:</label><br>
+          <input type="checkbox" name="type" value="standup"> Standup
+          <input type="checkbox" name="type" value="retrospective"> Retrospective
+          <input type="checkbox" name="type" value="brainstorm"> Brainstorming<br>
+
+          <label for="comments">Additional Comments:</label><br>
+          <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+
+          <button type="submit">Submit Feedback</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p><small>Made by Andy Kim</small></p>
+  </footer>
+</body>
+</html>
