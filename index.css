@@ -21,7 +21,7 @@ nav ul {
 }
 
 .inline-to-block {
-  display: block;
+  display: grid;
   background-color: #dcedc8;
   padding: 10px;
 }
