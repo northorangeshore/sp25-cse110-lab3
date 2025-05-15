@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: #362222;
+  color: #333;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Section Styling */
+section {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  border-bottom: 2px solid #003366;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+
+section:has(form) {
+  background-color: #e3f2fd;
+  border-left: 4px solid #2196f3;
+}
+
+form label, form input, form textarea, form select {
+  margin-top: 10px;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ddd;
+}
+
