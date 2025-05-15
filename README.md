@@ -1,1 +1,1 @@
-[Published site](https://northorangeshore.github.io/CSE110_LAB2/)
+[Published site](https://northorangeshore.github.io/sp25-cse110-lab3/)
