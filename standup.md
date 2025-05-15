@@ -22,4 +22,5 @@ To discuss last week's work performance
 | C    |opinion A              | solution            |
 
 ## Where to meet next time
-We will take survey later tonight please respond company email.
+We will take survey later tonight. 
+**Please respond company email.**
